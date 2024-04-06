@@ -1,20 +1,19 @@
 #include<stdio.h>
 int main(void)
 {
-  int num1 = 0xA7, num2 0x43;
-  int num3 = 032, num4 = 024;
+  char ch=9;
+  int inum=1052;
+  doble dnem=3.1415;
+  printf("변수 ch의 크기 : %d \n", sizeof(ch));
+  printf("변수 inum의 크기 : %d \n", sizeof(inum));
+  printf("변수 double의 크기 : %d \n", sizeof(dnum));
 
-  printf("0xA7의 10진 정수값 : %d \n", num1);
-  printf("0x%X의 10진 정수값 : %d \n", num1, num1);
-  printf("0x43의 10진 정수값 : %d \n", num2);
-  printf("0x%X의 10진 정수값 : %d \n", num2, num2);
-
-  printf("032의 10진 정수값 : %d \n", num3);
-  printf("0%o의 10진 정수값 : %d \n", num3, num3);
-  
-  printf("024의 10진 정수값 : %d \n", num4);
-  printf("0%o의 10진 정수값 : %d \n", num4, num4);
-  
+  printf("char의 크기 : %d \n", sizeof(char));
+  printf("int의 크기 : %d \n", sizeof(int));
+  printf("long의 크기 : %d \n", sizeof(long));
+  printf("long long의 크기 : %d \n", sizeof(long long));
+  printf("float의 크기 : %d \n", sizeof(float));
+  printf("double의 크기 : %d \n", sizeof(double));
   return 0;
 }
 
@@ -42,4 +41,20 @@ int main(void)
 
   result = num1 % num2;
   printf("%d %% %d = %d \n", num1, num2, result);
+*/
+
+/*
+  int num1 = 0xA7, num2 0x43;
+  int num3 = 032, num4 = 024;
+
+  printf("0xA7의 10진 정수값 : %d \n", num1);
+  printf("0x%X의 10진 정수값 : %d \n", num1, num1);
+  printf("0x43의 10진 정수값 : %d \n", num2);
+  printf("0x%X의 10진 정수값 : %d \n", num2, num2);
+
+  printf("032의 10진 정수값 : %d \n", num3);
+  printf("0%o의 10진 정수값 : %d \n", num3, num3);
+  
+  printf("024의 10진 정수값 : %d \n", num4);
+  printf("0%o의 10진 정수값 : %d \n", num4, num4);
 */
