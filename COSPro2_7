@@ -3,18 +3,31 @@
 int main(void)
 {
 
-  int num = 0;
+  char sel;
 
-  printf("start ! : ");
+  printf("M 오전, A 오후, E 저녁 \n");
+  printf("입력 : ");
+  scanf("%c", &sel);
 
-  for(num = 1; num < 20; num++)
+  switch(sel)
   {
-    if((num % 2 == 0) || (num % 3 == 0))
-    {
-        continue;
-    }
-  }
-  
+    case'm':
+    case'M':
+        printf("Morning \n");
+          break;
+    case'a':
+    case'A':
+        printf("Afternoon \n");
+          break;
+    case'e':
+    case'E':
+        printf("Evening \n");
+          break;
+    default : 
+        print("잘못 입력했습니다. \n");
+      
+}
+
   return 0;
 }
 
@@ -154,3 +167,50 @@ int main(void)
   printf("sum : %d \n", sum);
   printf("num : %d \n", num);
 */
+
+/*
+int num = 0;
+
+  printf("start ! : ");
+
+  for(num = 1; num < 20; num++)
+  {
+    if((num % 2 == 0) || (num % 3 == 0))
+    {
+        continue;
+    }
+    printf("%d", num);
+  }
+  printf("end! \n\n");
+*/
+
+/*
+  int num;
+  printf("1-5 정수 입력 : ");
+  scanf("%d", &num);
+  switch(num)
+  {
+    case 1 :
+        printf("1은 one \n");
+        break;
+     case 2 :
+        printf("2은 two \n");
+        break;
+     case 3 :
+        printf("3은 three \n");
+        break;
+     case 4 :
+        printf("4은 four \n");
+        break;
+     case 5 :
+        printf("5은 five \n");
+        break;
+    default :
+        printf(" I do not know~~ \n);
+  }
+*/
+
+/*
+
+*/
+
