@@ -3,7 +3,17 @@
 int main(void)
 {
 
-  
+  int num = 0;
+
+  printf("start ! : ");
+
+  for(num = 1; num < 20; num++)
+  {
+    if((num % 2 == 0) || (num % 3 == 0))
+    {
+        continue;
+    }
+  }
   
   return 0;
 }
@@ -128,7 +138,7 @@ int main(void)
 
   abs = (num > 0) ? num : num*(-1);
 
-  printf("절대값 : %ㅇ \n\n", abs);
+  printf("절대값 : %d \n\n", abs);
 */
 
 /*
