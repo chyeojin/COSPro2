@@ -28,6 +28,7 @@ int main(void)
     //sum = sum +i;
     sum += i;
     //printf("%d %d\n", i, sum);
+    printf("%d + ", i);
     i++;
 
     printf("%d + ", i);
